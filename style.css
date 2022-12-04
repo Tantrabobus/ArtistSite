@@ -30,8 +30,24 @@ figcaption {
     /*z-index: 20;*/
 }
 
+.header-logo {
+    background-color: black;
+    box-sizing: border-box;
+    display: block;
+    height: 19vh;
+    padding-top: 10px;
+    /*padding-bottom: 10px;*/
+    /*padding-left: 100px;*/
+    text-align:left;
+    /*width: 10vh;*/
+}
+
+.header-logo img {
+    width: 45vh;
+}
+
 .header-nav {
-    float: left;
+    float: right;
     padding: 5.5vh 60px 0 0;
 }
 
