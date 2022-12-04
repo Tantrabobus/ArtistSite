@@ -1,0 +1,123 @@
+html { 
+    box-shadow: 0 0 0 40px black inset;
+    padding: 0 30px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace
+    /*min-height: 100vh;*/
+    /*background-color: black;*/
+}
+
+figcaption {
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+    color: black;
+}
+
+.header {
+    /*display: block;*/
+    background-color: black;
+    color:white;
+    /*height: 80px;*/
+    /*position:fixed;*/
+    /*left: -30px;*/
+    /*text-align: center;*/
+    /*width: 100%;*/
+    /*z-index: 20;*/
+}
+
+.header-nav {
+    float: left;
+    padding: 5.5vh 60px 0 0;
+}
+
+.header-nav > li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.header-nav > li ~ li {
+    border-left: 1px solid white;
+    padding-left: 1em;
+}
+
+.header-nav a {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-nav a:hover,
+.header-nav a:active {
+    color: #ed6e2f;
+}
+
+.header-nav > li:first-child a {
+    color: #ed6e2f
+}
+
+.header-nav > li:first-child a:hover {
+    color: white;
+}
+
+
+.houdini {
+    display: flex;
+    align-self: center;
+    padding-top: 50px;
+}
+
+.Himage {
+    width: 300px;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.Htext {
+    max-width: 400px;
+    align-self: center;
+    flex: 1 1 auto;
+}
+
+.Hpages {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    align-self: center;
+} 
+
+.twopagespread {
+    width: 800px;
+    align-self: flex-start;
+}
+
+.thegrip {
+    padding-left: 20px;
+    max-width: 398px;
+    align-self: center;
+    flex: 1 1 auto;
+}
+
+
+/*text describing grip?; adjustments to show cards*/
+
+/*image of torn cards*/
+
+.torncards {
+    align-self: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tornimage {
+    width: 800px;
+}
+
+/*Practice!*/
+
