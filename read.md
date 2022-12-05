@@ -1,1 +1,0 @@
-This site was constructed as a part of Albany CanCode's Fall 2022 Front-End Web Development class by M. Cassidy. If you would like to reach out to the developer directly you can do so by sending an email to cassidy AT giantlibrarian DOT com.
