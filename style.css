@@ -18,6 +18,18 @@ figcaption {
     color: black;
 }
 
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+.contactform {
+    padding-left: 80px;
+    width: 400px;
+    text-align: justify;
+}
+
 .header {
     /*display: block;*/
     background-color: black;
@@ -83,7 +95,7 @@ figcaption {
 }
 
 
-.houdini {
+.herrmann {
     display: flex;
     align-self: center;
     padding-top: 50px;
@@ -96,44 +108,51 @@ figcaption {
 }
 
 .Htext {
-    max-width: 400px;
+    max-width: 600px;
     align-self: center;
     flex: 1 1 auto;
 }
 
-.Hpages {
+.Hbooks {
     display: flex;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 20px;
-    align-self: center;
+    align-self:center;
+    /*text-align: center;*/
 } 
 
-.twopagespread {
-    width: 800px;
+.artofmagic {
+    width: 400px;
     align-self: flex-start;
 }
 
-.thegrip {
+.wizardmanual {
     padding-left: 20px;
-    max-width: 398px;
+    max-width: 370px;
     align-self: center;
     flex: 1 1 auto;
 }
 
-
-/*text describing grip?; adjustments to show cards*/
-
-/*image of torn cards*/
-
-.torncards {
+.Hvideo {
     align-self: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.tornimage {
-    width: 800px;
+.Hlinks {
+    align-self: center;
+    padding-bottom: 40px;
 }
 
-/*Practice!*/
+.favofallnations {
+    align-self: center;
+    padding-bottom: 40px;
+}
 
+.thanks {
+    /*align-self: center;*/
+    padding-left: 80px;
+    padding-top: 40px;
+    width: 400px;
+    text-align: center;
+}
