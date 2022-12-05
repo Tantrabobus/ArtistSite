@@ -24,12 +24,6 @@ h1 {
     padding-top: 20px;
 }
 
-.contactform {
-    padding-left: 80px;
-    width: 400px;
-    text-align: justify;
-}
-
 .header {
     /*display: block;*/
     background-color: black;
@@ -155,4 +149,17 @@ h1 {
     padding-top: 40px;
     width: 400px;
     text-align: center;
+}
+
+.aboutpage {
+    padding-left: 80px;
+    width: 400px;
+    text-align: justify;
+}
+
+
+.contactform {
+    padding-left: 80px;
+    width: 400px;
+    text-align: justify;
 }
